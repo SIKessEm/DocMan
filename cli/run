@@ -1,0 +1,6 @@
+#!/usr/bin/env php
+<?php
+
+require_once dirname(__DIR__) . '/pkg/autoload.php';
+
+fwrite(STDOUT,  'Launched!' . PHP_EOL);

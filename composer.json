@@ -1,0 +1,46 @@
+{
+    "name": "sikessem/docman",
+    "version": "0.1.0-a",
+    "type": "library",
+    "description": "Designer of user manual and documentation for developers",
+    "license": "CC0-1.0",
+    "keywords": [
+        "docman",
+        "sikessem"
+    ],
+    "authors": [{
+        "homepage": "https://sikessem.com/",
+        "name": "SIGUI Kessé Emmanuel",
+        "email": "developer@sikessem.com",
+        "role": "Developer"
+    }],
+    "support": {
+        "source": "https://github.com/SIKessEm/DocMan",
+        "issues": "https://github.com/SIKessEm/DocMan/issues"
+    },
+    "require": {
+        "php": ">=8.0"
+    },
+    "autoload": {
+        "files": [
+            "ext/docman.php"
+        ],
+        "psr-4": {
+          "SIKessEm\\DocMan\\": "lib/"
+        }
+    },
+    "autoload-dev": {
+        "files": [
+            "ext/docman.test.php"
+        ]
+    },
+    "homepage": "https://github.com/SIKessEm/DocMan#readme",
+    "config": {
+    	"vendor-dir": "pkg",
+        "bin-dir": "cli",
+        "preferred-install": "dist",
+        "sort-packages": true
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true
+}

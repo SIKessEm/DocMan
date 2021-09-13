@@ -1,0 +1,26 @@
+{
+  "name": "@~sikessem/docman",
+  "version": "0.1.0-a",
+  "license": "CC0-1.0",
+  "description": "Designer of user manual and documentation for developers",
+  "private": true,
+  "main": "main.js",
+  "scripts": {
+    "start": "node main.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SIKessEm/DocMan.git"
+  },
+  "keywords": [
+    "docman",
+    "sikessem"
+  ],
+  "author": "SIGUI Kessé Emmanuel <developer@sikessem.com> (https://sikessem.com/)",
+  "bugs": {
+    "url": "https://github.com/SIKessEm/DocMan/issues"
+  },
+  "homepage": "https://github.com/SIKessEm/DocMan#readme",
+  "dependencies": {},
+  "devDependencies": {}
+}
