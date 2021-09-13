@@ -1,5 +1,10 @@
 <?php
 
+use SIKessEm\DocMan\{
+  function output
+};
+
 require_once dirname(__DIR__) . '/pkg/autoload.php';
 
-echo 'Welcome to DocMan!';
+$output = output(fopen('php://output', 'r'));
+$output->write('Welcome to DocMan!');

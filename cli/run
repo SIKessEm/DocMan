@@ -1,6 +1,11 @@
 #!/usr/bin/env php
 <?php
 
+use SIKessEm\DocMan\{
+  function output
+};
+
 require_once dirname(__DIR__) . '/pkg/autoload.php';
 
-fwrite(STDOUT,  'Launched!' . PHP_EOL);
+$output = output(STDOUT);
+$output->write('Launched!' . PHP_EOL);
