@@ -1,11 +1,17 @@
 #!/usr/bin/env php
 <?php
 
-use SIKessEm\DocMan\{
-  function output
+use SIKessEm\IO\{
+  function it
 };
 
 require_once dirname(__DIR__) . '/pkg/autoload.php';
 
-$output = output(STDOUT);
-$output->write('Launched!' . PHP_EOL);
+$it = it();
+
+$input = $it->getInput();
+$output = $it->getOutput();
+
+$output->write('Your name ? : ');
+$name = $input->read(1024);
+$output->write("Welcome $name" . PHP_EOL);

@@ -1,6 +1,6 @@
-<?php namespace SIKessEm\DocMan;
+<?php namespace SIKessEm\IO;
 
-abstract class AbstractOutput implements OutputInterface {
+abstract class Abstract_Stream implements Stream_Interface {
 
   public function __construct($stream) {
 

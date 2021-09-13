@@ -1,8 +1,8 @@
-<?php namespace SIKessEm\DocMan;
+<?php namespace SIKessEm\IO;
 
-trait OutputTrait {
+trait Output_Trait {
 
-  use StreamTrait;
+  use Stream_Trait;
 
   public function write(string $text, ?int $length = null): int|false {
 

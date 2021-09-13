@@ -1,6 +1,6 @@
-<?php namespace SIKessEm\DocMan;
+<?php namespace SIKessEm\IO;
 
-interface StreamInterface {
+interface Stream_Interface {
 
   public function setStream($stream);
 

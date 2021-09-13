@@ -23,10 +23,11 @@
     },
     "autoload": {
         "files": [
-            "ext/docman.php"
+            "ext/io.php"
         ],
         "psr-4": {
-          "SIKessEm\\DocMan\\": "lib/"
+          "SIKessEm\\": "lib/",
+          "DocMan\\": "src/"
         }
     },
     "autoload-dev": {
