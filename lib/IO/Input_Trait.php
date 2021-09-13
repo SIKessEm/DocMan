@@ -1,8 +1,8 @@
-<?php namespace SIKessEm\DocMan;
+<?php namespace SIKessEm\IO;
 
-trait InputTrait {
+trait Input_Trait {
 
-  use StreamTrait;
+  use Stream_Trait;
 
   public function read(int $length): string|false {
 

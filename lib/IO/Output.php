@@ -1,8 +1,8 @@
-<?php namespace SIKessEm\DocMan;
+<?php namespace SIKessEm\IO;
 
-class Output extends AbstractOutput {
+class Output extends Abstract_Output {
 
-  use OutputTrait;
+  use Output_Trait;
 
   public function write(string $text, ?int $length = null): int|false {
 

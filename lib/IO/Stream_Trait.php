@@ -1,6 +1,6 @@
-<?php namespace SIKessEm\DocMan;
+<?php namespace SIKessEm\IO;
 
-trait StreamTrait {
+trait Stream_Trait {
 
   protected $stream;
 

@@ -1,6 +1,6 @@
 <?php
 
-use SIKessEm\DocMan\{
+use SIKessEm\IO\{
   function ui
 };
 

@@ -1,8 +1,8 @@
-<?php namespace SIKessEm\DocMan;
+<?php namespace SIKessEm\IO;
 
-class Input extends AbstractInput {
+class Input extends Abstract_Input {
 
-  use InputTrait;
+  use Input_Trait;
 
   public function read(int $length): string|false {
 

@@ -1,4 +1,4 @@
-<?php namespace SIKessEm\DocMan;
+<?php namespace SIKessEm\IO;
 
 class UI extends API {
 

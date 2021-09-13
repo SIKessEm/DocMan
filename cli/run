@@ -1,7 +1,7 @@
 #!/usr/bin/env php
 <?php
 
-use SIKessEm\DocMan\{
+use SIKessEm\IO\{
   function it
 };
 
