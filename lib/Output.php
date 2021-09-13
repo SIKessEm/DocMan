@@ -1,6 +1,8 @@
 <?php namespace SIKessEm\DocMan;
 
-class Output {
+class Output implements OutputInterface {
+
+  use OutputTrait;
 
   public function __construct(protected $stream) {}
 
