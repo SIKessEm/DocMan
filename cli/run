@@ -2,10 +2,15 @@
 <?php
 
 use SIKessEm\DocMan\{
+  function input,
   function output
 };
 
 require_once dirname(__DIR__) . '/pkg/autoload.php';
 
+$input = input(STDIN);
 $output = output(STDOUT);
-$output->write('Launched!' . PHP_EOL);
+
+$output->write('Your name ? : ');
+$name = $input->read(1024);
+$output->write("Welcome $name" . PHP_EOL);
