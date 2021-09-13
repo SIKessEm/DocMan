@@ -1,5 +1,15 @@
 <?php
 
+use SIKessEm\IO\{
+  function ui
+};
+
 require_once dirname(__DIR__) . '/pkg/autoload.php';
 
-echo 'Welcome to DocMan!';
+$ui = ui();
+
+$input = $ui->getInput();
+$output = $ui->getOutput();
+
+$name = $input->read(1024);
+$output->write("Hello $name. Welcome to DocMan!");
